@@ -19,4 +19,4 @@ pip install stdiomask
 
 Architecture:
 
-![](https://user-images.githubusercontent.com/70664028/120233952-efa34d00-c224-11eb-805a-8f78a4d2c7ec.png)
+![](https://user-images.githubusercontent.com/70664028/120247504-ab727580-c241-11eb-8439-40101427eccc.png)
