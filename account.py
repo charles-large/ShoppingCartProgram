@@ -64,7 +64,7 @@ class Account():
             cursor.close()
 
     def createAccount(self):
-        mysql_connect = connection.MySQLConnection(user='clarge', password='Applesauce34!', host='192.168.0.7', database='Shopping_Cart')
+        mysql_connect = connection.MySQLConnection(user=<user>, password=<password>, host=<host>, database='Shopping_Cart')
         """Upload mysql data for customer to server"""
         cursor = Account.mysql_connect.cursor()
         data = (f"INSERT INTO User_Data VALUES (\"{self.username}\", \"{(self.__passwd)}\", \"{(self.__salt)}\", \"{self.__email}\", \"{self.balance}\", \"{self.__salt2}\");")
@@ -78,7 +78,7 @@ class Account():
     
     
     def accountQuery(self):
-        mysql_connect = connection.MySQLConnection(user='clarge', password='Applesauce34!', host='192.168.0.7', database='Shopping_Cart')
+        mysql_connect = connection.MySQLConnection(user=<user>, password=<password>, host=<host>, database='Shopping_Cart')
         """Query the database with a given username, returns account information"""
         cursor = Account.mysql_connect.cursor()
         query = f"SELECT username, hashed_passwd, email, salt, salt2, balance FROM User_Data WHERE username=\"{self.username}\""
