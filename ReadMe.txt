@@ -15,3 +15,8 @@ All packages are standard python libraries except stdiomask
 Install Non default python packages with:
 
 pip install stdiomask
+
+
+Architecture:
+
+![](https://user-images.githubusercontent.com/70664028/120233952-efa34d00-c224-11eb-805a-8f78a4d2c7ec.png)
