@@ -6,7 +6,7 @@ Credentials and IP address will need to be changed as appropiate.
 How to run the program
 
 1. Have python installed on your computer
-2. Open a IDE or run from the commandline the main.py file (Ex: python main.py (linux))
+2. Open a IDE or run from the commandline the mainMenu.py file (Ex: python mainMenu.py)
 
 Install Dependencies:
 
